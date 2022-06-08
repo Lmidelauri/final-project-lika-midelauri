@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta property="og:title" content="ZD photography" />
+  <meta property="og:type" content="photographer portfolio" />
+  <meta property="og:url" content="index.html" />
+  <meta property="og:image" content="../images/gallery2(8).jpg" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>ZD photography</title>
+  
+</head>
+
+<body>
+  <header></header>
+  <main class="index">
+    <h1 onclick="location.href='index.html';" class="logo"><i class="fa fa-camera"></i>
+      ZD
+      <br>
+      <p class="logo"> Photography</p>
+    </h1>
+
+
+
+    <div class="slider">
+      <div class="photoList">
+        <button class="photoList_gilaki gilaki gilaki-left">
+          <div class="isari">
+            <svg>
+              <use xlink:href="#arrow-left"></use>
+            </svg>
+          </div>
+        </button>
+
+        <div class="photos_wr">
+          <div class="photo mtavari-photo">
+            <div class="photo_image">
+              <img src="images/gallery2 (20).jpg" alt="poppies" />
+            </div>
+          </div>
+
+          <div class="photo shemdegi-photo">
+            <div class="photo_image">
+              <img src="images/gallery1.8.jpg" alt="old tbilisi" />
+            </div>
+          </div>
+
+          <div class="photo wina-photo">
+            <div class="photo_image">
+              <img src="images/gallery3 (9).jpg" alt="in the forest" />
+            </div>
+          </div>
+        </div>
+
+        <button class="photoList_gilaki gilaki gilaki-right">
+          <div class="isari">
+            <svg>
+              <use xlink:href="#arrow-right"></use>
+            </svg>
+          </div>
+        </button>
+      </div>
+
+      <div class="infoList">
+        <div class="info_wr">
+          <div class="info mtavari-info">
+            <h1 class="text name"></h1>
+            <h4 class="text location">poppies</h4>
+            <p class="text description">sunny day</p>
+          </div>
+
+          <div class="info shemdegi-info">
+            <h1 class="text name"></h1>
+            <h4 class="text location">Old Tbilisi</h4>
+            <p class="text description">morning photoshoot</p>
+          </div>
+
+          <div class="info wina-info">
+            <h1 class="text name"></h1>
+            <h4 class="text location">wild nature</h4>
+            <p class="text description">In the forest</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="slider_bg">
+        <div class="slider_bg_image mtavari-image">
+          <img src="images/gallery2 (20).jpg" alt="poppies" />
+        </div>
+        <div class="slider_bg_image shemdegi-image">
+          <img src="images/gallery1.8.jpg" alt="old tbilisi" />
+        </div>
+        <div class="slider_bg_image wina-image">
+          <img src="images/gallery3 (9).jpg" alt="in the forest" />
+        </div>
+      </div>
+    </div>
+
+    <div class="loading_wr">
+      <div class="loader-text">Loading...</div>
+      <div class="loader">
+        <span></span>
+      </div>
+    </div>
+
+
+    <svg class="icons" style="display: none;">
+      <symbol id="arrow-left" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+        <polyline points='328 112 184 256 328 400'
+          style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+      </symbol>
+      <symbol id="arrow-right" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+        <polyline points='184 112 328 256 184 400'
+          style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+      </symbol>
+    </svg>
+
+
+    <div class="navigation">
+      <nav id="navigation">
+      </nav>
+    </div>
+
+
+    <div class="social_media">
+      <a href="https://www.facebook.com/Zura-Daashashvili-Photography-108000805187116/?ref=page_internal"
+        rel="unfollow"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/zura_daashashvili1/?fbclid=IwAR1vVPQjXsBsKBB04AV84quCiFCAa_HOaud9cuwauo71FTgVt9YSDYbAUMY"
+        rel="unfollow"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+      <button class="open-button" id="open-button"><i class="fa fa-comments"></i></button>
+
+      <div class="chat-popup" id="chatcontact">
+        <form action="/action_page.php" class="messenger">
+          <button type="button" class="btn cancel" id="cancelbutton"> <i class="fa-solid fa-x"></i></i></button>
+
+          <textarea placeholder="Type message.." name="msg" required></textarea>
+
+          <button type="submit" class="btn send"> <i class="fa-solid fa-paper-plane"></i> </button>
+
+        </form>
+      </div>
+
+    </div>
+
+
+
+  </main>
+  <footer></footer>
+
+  <script src="https://kit.fontawesome.com/6d6b7bcdd9.js" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
